@@ -28,7 +28,7 @@ int main(){
         } 
       
   /*Sarwsh STHLH-STHLH*/
-
+	get_walltime(&ts);
 	for (i=0; i<NCOLS; i++){
 	     for (j=0; j<NROWS; j++){
 		     sum+=table[j*NCOLS + i];
