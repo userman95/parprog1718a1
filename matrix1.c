@@ -24,7 +24,7 @@ int main(){
 	}
 
         for (i=0;i<NROWS*NCOLS;i++) {
-           table[i] = 2.0;
+           table[i] = 1.0;
         } 
   
        /*ΣΑΡΩΣΗ ΓΡΑΜΜΗ-ΓΡΑΜΜΗ*/
