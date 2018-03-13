@@ -31,7 +31,7 @@ int main(){
 	get_walltime(&ts);
 	for (i=0; i<NCOLS; i++){
 	     for (j=0; j<NROWS; j++){
-		     sum+=table[i*NCOLS + j];
+		     sum+=table[j*NCOLS + i];
 	    }
 	}
         get_walltime(&te);
