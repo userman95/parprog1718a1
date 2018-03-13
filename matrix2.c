@@ -24,14 +24,14 @@ int main(){
 	}
 
         for (i=0;i<NROWS*NCOLS;i++) {
-           table[i] = 2.0;
+           table[i] = 1.0;
         } 
       
   /*Sarwsh STHLH-STHLH*/
 
 	for (i=0; i<NCOLS; i++){
 	     for (j=0; j<NROWS; j++){
-		     sum+=table[i*NROWS + j];
+		     sum+=table[j*NCOLS + i];
 	    }
 	}
         get_walltime(&te);
